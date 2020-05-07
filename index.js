@@ -76,6 +76,8 @@ const staggeringOption = {
   origin: "bottom"
 };
 
+// 背景视觉差
+const dataSectionEl = document.querySelector(".data-section");
 // 淡出动画 与 num跳动
 ScrollReveal().reveal(".feature", { ...staggeringOption, interval: 350 });
 ScrollReveal().reveal(".service-item", { ...staggeringOption, interval: 350 });
@@ -97,8 +99,6 @@ ScrollReveal().reveal(".data-section", {
   }
 });
 
-// 背景视觉差
-const dataSectionEl = document.querySelector(".data-section");
 window.addEventListener("scroll", () => {
   const bottom = dataSectionEl.getBoundingClientRect().bottom;
   const top = dataSectionEl.getBoundingClientRect().top;
