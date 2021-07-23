@@ -12,8 +12,3 @@
 ## 方案
 
 过渡循环动画和num数字相关`anime`动画库、轮播动画`glide`、筛选`isotope`、顺序过渡动画`ScrollReveal`、锚点滚动`SmoothScroll`
-
-
-这个项目是我 B 站视频教程中，有关 React 的示例代码。我把组件打包成了单独的组件，可以在安装这个库之后直接导入使用。
-
-[点击查看运行示例](https://1111.jhljtext.com)
